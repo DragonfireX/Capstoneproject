@@ -1,0 +1,225 @@
+body {
+    margin: 0px;
+    margin-bottom: 75px;
+}
+
+.navigation-wrapper {
+    height: 90px;
+    background-color: black;
+    color: #cbcbcb;
+    display: grid;
+    grid-template-columns: .5fr 1.5fr 1fr;
+    align-items: center;     
+}
+
+.navigation-wrapper > .left-column > .logo-white img {
+    height: 50px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1.5fr;
+    grid-gap: 0px;
+    width: 55%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.navigation-wrapper > .center-column > .links-wrapper a, a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-wrapper  .center-column  .nav-link  {
+    padding-right: 20px;
+    width: 50%;
+}
+
+.navigation-wrapper > .right-column > .btn-wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: .5fr .25fr .5fr .5fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body-paragraph-wrapper {
+    color: White;
+    font-size: 43px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: -650px;
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body-paragraph-wrapper p{
+    margin-left: 45px;
+}
+
+.body-picture img{
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 50%;
+}
+
+.body-picture > .body-picture-paragraph {
+    color: white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 550px;
+    margin-right: 0px;
+    margin-bottom: -60px;
+}    
+
+.body-picture strong { 
+    color: skyblue;
+    font-size: 35px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: -12px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-wrapper {
+    display: grid;
+    grid-template-columns: 1em 1em 1em 1em;
+    justify-content: space-between;
+}
+
+.links-wrapper {
+    font-family: 'Rowdies', cursive;
+    font-size: 25px;
+}
+
+.dropbtn {
+    display: grid;
+    grid-template-columns: .5fr;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    margin-top: 7px;
+    margin-left: 15px;
+    width: 100%;
+    color: gray;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: black;}
+
+.btn-wrapper #create, #log-btn, #sign-btn {
+    background-color: rgb(32, 27, 27);
+    width: 100%;
+    font-size: 25px;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn-wrapper #log-btn {
+    margin-left: -15px;
+}
+
+.btn-wrapper #create {
+    margin-left: -15px;
+}
+
+.btn-wrapper #search-icon {
+    font-size: 45px;
+    margin-left: 10px;
+    color: grey;
+}
+
+.footer #one, #two, #three, #four {
+    background-color: black;
+    padding: 25px 35px;
+    border-style: solid;
+    border-radius: inherit;
+    border-color: gray;
+    border-width: 1px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container {
+    font-family: 'Righteous', cursive;
+}
+
+.button-container {
+    padding: 50px
+}
+.button-container #sign-up-btn {
+    background-color: rgba(93, 226, 110, 0.541);
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: 75px;
+    padding: 15px 10px
+}
+
+.button-container #learn-btn {
+    background-color: black;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: 10px;
+    padding: 15px 10px;
+}
+ #chev-one {
+     margin-left: 15px;
+     margin-top: 5px;
+     font-size: 20px;     
+}
+
+#chev-two {
+    margin-left: 15px;
+    color: green;
+}
